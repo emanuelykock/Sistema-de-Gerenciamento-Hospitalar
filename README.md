@@ -10,15 +10,16 @@ O **Sistema de Gerenciamento Hospitalar** é uma aplicação desenvolvida em Pyt
 - **Interface Gráfica**: A interface foi desenvolvida utilizando a biblioteca Tkinter para facilitar a interação do usuário com o sistema.
 
 ## Tecnologias Utilizadas
-- **Python 3.x**: Linguagem de programação utilizada para o desenvolvimento do sistema.
-- **Tkinter**: Biblioteca para criação da interface gráfica.
-- **Git/GitHub**: Para controle de versão e colaboração no desenvolvimento.
+- **Linguagem**: Python 3.x
+- **Biblioteca Gráfica**: Tkinter (para a interface gráfica)
+- **Estrutura de Dados**: Listas para armazenar informações de pacientes e enfermeiros
+- **Objetos e Classes**: Programação orientada a objetos para gerenciar as entidades Paciente e Enfermeiro.
 
 ## Cronograma de Desenvolvimento
-- **Semana 1**: Planejamento do projeto e criação do repositório no GitHub.
-- **Semana 2**: Implementação do cadastro de pacientes e enfermeiros.
-- **Semana 3**: Desenvolvimento da interface gráfica para interação com os usuários.
-- **Semana 4**: Testes finais, ajustes na interface e documentação.
+Semana 1: Estruturação inicial do projeto e criação das classes Paciente e Enfermeiro.
+Semana 2: Implementação da interface gráfica com o Tkinter, incluindo as abas de cadastro e visualização.
+Semana 3: Ajustes finais, como validações de entrada e organização do código.
+Semana 4: Testes e documentação do sistema.
 
 ## Como Executar o Projeto
 
@@ -30,3 +31,6 @@ O **Sistema de Gerenciamento Hospitalar** é uma aplicação desenvolvida em Pyt
 1. Clone o repositório:
    ```bash
    git clone https://github.com/emanuelykock/Sistema-Gerenciamento-Hospitalar.git
+
+Desafios Enfrentados
+Durante o desenvolvimento, um dos principais desafios foi integrar a lógica de cadastro e a alocação de enfermeiros aos pacientes de forma dinâmica e eficiente. Além disso, o gerenciamento da interface gráfica utilizando Tkinter exigiu um controle cuidadoso da estrutura de layout para garantir uma boa experiência de usuário. A utilização do Git foi crucial para manter o controle das alterações e facilitar a colaboração.
